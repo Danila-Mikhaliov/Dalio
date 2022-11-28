@@ -1,0 +1,95 @@
+.digital-agency {
+  // .digital-agency__content
+
+  &__content {
+    position: relative;
+  }
+
+  // .digital-agency__content-title
+
+  &__content-title {
+    text-align: center;
+  }
+  &__content-title-bottom {
+    text-align: center;
+    padding-right: 240px;
+  }
+
+  // .digital-agency__content-discription
+
+  &__content-discription {
+    color: rgba(224, 229, 243, 1);
+    font-family: $ff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 150px;
+    max-width: 515px;
+  }
+  &__content-discription-desktop {
+  }
+
+  // .digital-agency__content-button
+
+  &__content-button {
+    margin-left: 150px
+  }
+
+  // .digital-agency__content-world
+
+  &__content-world {
+    position: absolute;
+    top: -70px;
+    left: 80px;
+  }
+
+  // .digital-agency__content-meeting
+
+  &__content-meeting {
+    position: absolute;
+    top: 490px;
+    left: -130px;
+  }
+
+  // .digital-agency__content-work
+
+  &__content-work {
+    position: absolute;
+    top: 188px;
+    right: -100px;
+  }
+
+  // .digital-agency__content-work-bottom
+
+  &__content-work-bottom {
+    position: absolute;
+    top: 590px;
+    right: -70px;
+  }
+
+  // .digital-agency__content-line
+
+  &__content-line {
+    position: absolute;
+    right: -145px;
+    top: -40px;
+  }
+
+  // .digital-agency__content-circle
+
+  &__content-circle {
+    position: absolute;
+    top: 730px;
+    left: 30px;
+  }
+
+  // .digital-agency__content-scroll
+
+  &__content-scroll {
+    position: absolute;
+    top: 600px;
+    left: 520px;
+  }
+}

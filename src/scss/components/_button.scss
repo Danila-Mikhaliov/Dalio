@@ -1,0 +1,22 @@
+.button-yellow {
+    background-color: $yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 16px, 52px, 16px, 24px;
+    width: 154px;
+    height: 54px;
+    font-family: $ff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    cursor: pointer;    
+
+    &__vector {
+        margin-left: 10.5px;
+    }
+}

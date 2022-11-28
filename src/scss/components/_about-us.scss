@@ -1,0 +1,31 @@
+.about-us {
+  padding: 386px 0 0 160px;
+
+  // .about-us__content
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  // .about-us__content-text
+
+  &__content-text {
+    width: calc(539 / 1140 * 100%);
+    padding-right: 45px ;
+  }
+
+  // .about-us__content-text--title
+
+  &__content-text--title {
+  }
+
+  // .about-us__content-text--discription
+
+  &__content-text--discription {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 48px;
+  }
+
+}
