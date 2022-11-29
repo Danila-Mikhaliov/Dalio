@@ -3,3 +3,10 @@
     padding: 15px;
     max-width: 1140px;
 }
+@media (max-wdith: 375px) {
+    .container{
+        margin: 0 auto;
+        padding: 15px;
+    }
+    
+}
