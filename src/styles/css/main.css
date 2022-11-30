@@ -534,9 +534,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 30px;
-  padding: 16px, 52px, 16px, 24px;
-  width: 154px;
-  height: 54px;
+  padding: 20px;
   font-family: Inter;
   font-size: 18px;
   font-weight: 500;
@@ -547,7 +545,35 @@ p {
   cursor: pointer;
 }
 .button-yellow__vector {
-  margin-left: 10.5px;
+  margin-left: 20px;
+}
+
+.button-transparent {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid white;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+.button-transparent__vector {
+  margin-left: 20px;
+}
+.button-transparent:hover {
+  background-color: #FFC93E;
+  border: 1px solid #FFC93E;
 }
 
 .digital-agency__content {
@@ -673,7 +699,7 @@ p {
 }
 .solution__background-yellow {
   background-color: #FFC93E;
-  width: 40%;
+  width: 50%;
   position: relative;
 }
 .solution__image {
@@ -710,4 +736,68 @@ p {
 .solution__background-grey-container-text-item-discription {
   margin-bottom: 42px;
   margin-left: 50px;
+}
+
+.services__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+.services__header-title {
+  height: 52px;
+  width: 33.5%;
+  color: #fff;
+}
+.services__header-button {
+  margin-right: 40px;
+}
+
+.services__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.services__content-cards-column {
+  margin-right: 30px;
+}
+.services__content-cards-column:nth-child(2) {
+  margin-top: 50px;
+}
+.services__content-cards-column-element {
+  background-color: rgb(53, 63, 91);
+  margin-bottom: 30px;
+  padding: 95px 41px 70px 34px;
+}
+.services__content-cards-column-element-icon {
+  margin-bottom: 30px;
+}
+.services__content-cards-column-element-title {
+  color: #fff;
+  margin-bottom: 24px;
+}
+.services__content-cards-column-element-discription {
+  margin-bottom: 50px;
+}
+
+.element-right-bottom {
+  border-bottom-right-radius: 50px;
+}
+
+.element-left-bottom {
+  border-bottom-left-radius: 50px;
+}
+
+.element-right-top {
+  border-top-right-radius: 50px;
+}
+
+.element-left-top {
+  border-top-left-radius: 50px;
 }

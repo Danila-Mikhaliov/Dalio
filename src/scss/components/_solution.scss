@@ -1,11 +1,12 @@
 .solution {
     display: flex;
     min-height: 850px;
+    
 
     // .solution__background-yellow
     &__background-yellow {
         background-color: $yellow;
-        width: 40% ;
+        width: 50% ;
         position: relative;
     }
 
