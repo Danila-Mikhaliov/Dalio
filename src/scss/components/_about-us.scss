@@ -1,26 +1,30 @@
 .about-us {
   padding: 386px 0 0 160px;
+  @media screen and (max-width: 425px){
+    padding: 5px;
+    padding-bottom: 280px;
 
-  // .about-us__content
-
+  }
+  
   &__content {
     display: flex;
     flex-direction: row;
   }
+  &__content-text--title{
+    @media screen and (max-width: 425px){
+      width: 70%;
 
-  // .about-us__content-text
+    }
 
+  }
   &__content-text {
-    width: calc(539 / 1140 * 100%);
+    max-width: 539px;
     padding-right: 45px ;
+    @media screen and (max-width: 425px){
+      width: 100%;
+      padding: 0px;
+    }
   }
-
-  // .about-us__content-text--title
-
-  &__content-text--title {
-  }
-
-  // .about-us__content-text--discription
 
   &__content-text--discription {
     text-align: left;
@@ -29,6 +33,13 @@
   }
   &__content-button {
     align-self: flex-start;
+    
+  }
+  &__content-imagegroup{
+    @media screen and (max-width: 425px){
+       position: absolute;
+       top: 2380px;
+    }
   }
 }
 

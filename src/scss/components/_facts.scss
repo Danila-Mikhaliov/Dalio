@@ -7,6 +7,9 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        @media screen and (max-width: 425px){
+        flex-direction: column;
+        }
     }
 
     // .facts__column
@@ -15,11 +18,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        @media screen and (max-width: 425px){
+            margin-bottom: 20px;
+        }
     }
 
     // .facts__column--amount
 
     &__column--amount {
+        @media screen and (max-width: 425px){
+            font-size: 48px
+        }
     }
 
     // .facts__column--type
@@ -27,6 +36,9 @@
     &__column--type {
         color: rgba(224, 229, 243, 1);
         margin-top: 8px;
+        @media screen and (max-width: 425px){
+            font-size: 20px;
+        }
 
     }
 }
