@@ -11,6 +11,9 @@
   &__filter {
     margin-bottom: 48px;
     margin-left: 29.1%;
+    @media screen and (max-width: 768px){
+      margin-left: 18%;
+    }
     @media screen and (max-width: 425px){
       margin-left: 10px;
     }

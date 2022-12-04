@@ -1,8 +1,8 @@
 .about-us {
-  padding: 386px 0 0 160px;
+  padding-top: 386px;
   @media screen and (max-width: 425px){
     padding: 5px;
-    padding-bottom: 280px;
+    padding-bottom: 300px;
 
   }
   
@@ -36,9 +36,14 @@
     
   }
   &__content-imagegroup{
+    @media screen and (max-width: 768px){
+      left: 100px;
+    }
     @media screen and (max-width: 425px){
        position: absolute;
-       top: 2380px;
+       left: 20px;
+       top: 2310px;
+       width: 90%;
     }
   }
 }
