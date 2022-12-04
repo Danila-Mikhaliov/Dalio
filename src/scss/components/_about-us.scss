@@ -3,7 +3,9 @@
   @media screen and (max-width: 425px){
     padding: 5px;
     padding-bottom: 300px;
-
+  }
+  @media screen and (max-width: 380px){
+    padding-bottom: 330px;
   }
   
   &__content {
@@ -44,6 +46,12 @@
        left: 20px;
        top: 2310px;
        width: 90%;
+    }
+    @media screen and (max-width: 380px){
+      top: 2390px;
+    }
+    @media screen and (max-width: 333px){
+      top: 2500px;
     }
   }
 }

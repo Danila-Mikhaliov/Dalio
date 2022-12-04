@@ -69,6 +69,14 @@ top: 500px;
     top: 188px;
     right: -100px;
     width: 40%;
+    @media screen and (max-width: 1300px){
+      width: 35%;
+      right: -50px;
+    }
+    @media screen and (max-width: 1024px){
+      width: 33%;
+      right: 0px;
+    }
     @media screen and (max-width: 768px){
       left: 380px;;
       top: 500px;
@@ -77,7 +85,9 @@ top: 500px;
       top: 550px;
       width: 87.2%;
       left: 20px;
-
+  }
+  @media screen and (max-width: 333px){
+    top: 590px;
   }
   }
   &__content-work-bottom {
@@ -85,6 +95,15 @@ top: 500px;
     top: 590px;
     right: -70px;
     width: 17%;
+    @media screen and (max-width: 1300px){
+      width: 15%;
+      top: 520px;
+      right: -30px;
+    }
+    @media screen and (max-width: 1300px){
+      top: 450px;
+      right: 0px;
+    }
     @media screen and (max-width: 768px){
       top: 740px;
       right: 85px;
@@ -99,6 +118,12 @@ top: 500px;
     right: -145px;
     top: -40px;
     width: 62%;
+    @media screen and (max-width: 1390px){
+      right: -90px;
+    }
+    @media screen and (max-width: 1024px){
+      right: -15px;
+    }
     @media screen and (max-width: 768px){
       right: 30px;
       top: 10px;
@@ -107,9 +132,11 @@ top: 500px;
       width: 80%;
     left: 90px;
       top: 20px;
-      
   }
-    
+  @media screen and (max-width: 385px){
+    left: 70px;
+
+  }
   }
   &__content-circle {
     position: absolute;

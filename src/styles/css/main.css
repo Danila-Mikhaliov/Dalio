@@ -731,6 +731,18 @@ p {
   right: -100px;
   width: 40%;
 }
+@media screen and (max-width: 1300px) {
+  .digital-agency__content-work {
+    width: 35%;
+    right: -50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .digital-agency__content-work {
+    width: 33%;
+    right: 0px;
+  }
+}
 @media screen and (max-width: 768px) {
   .digital-agency__content-work {
     left: 380px;
@@ -744,11 +756,29 @@ p {
     left: 20px;
   }
 }
+@media screen and (max-width: 333px) {
+  .digital-agency__content-work {
+    top: 590px;
+  }
+}
 .digital-agency__content-work-bottom {
   position: absolute;
   top: 590px;
   right: -70px;
   width: 17%;
+}
+@media screen and (max-width: 1300px) {
+  .digital-agency__content-work-bottom {
+    width: 15%;
+    top: 520px;
+    right: -30px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .digital-agency__content-work-bottom {
+    top: 450px;
+    right: 0px;
+  }
 }
 @media screen and (max-width: 768px) {
   .digital-agency__content-work-bottom {
@@ -768,6 +798,16 @@ p {
   top: -40px;
   width: 62%;
 }
+@media screen and (max-width: 1390px) {
+  .digital-agency__content-line {
+    right: -90px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .digital-agency__content-line {
+    right: -15px;
+  }
+}
 @media screen and (max-width: 768px) {
   .digital-agency__content-line {
     right: 30px;
@@ -779,6 +819,11 @@ p {
     width: 80%;
     left: 90px;
     top: 20px;
+  }
+}
+@media screen and (max-width: 385px) {
+  .digital-agency__content-line {
+    left: 70px;
   }
 }
 .digital-agency__content-circle {
@@ -810,6 +855,11 @@ p {
   .about-us {
     padding: 5px;
     padding-bottom: 300px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .about-us {
+    padding-bottom: 330px;
   }
 }
 .about-us__content {
@@ -856,6 +906,16 @@ p {
     left: 20px;
     top: 2310px;
     width: 90%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .about-us__content-imagegroup {
+    top: 2390px;
+  }
+}
+@media screen and (max-width: 333px) {
+  .about-us__content-imagegroup {
+    top: 2500px;
   }
 }
 
@@ -1166,6 +1226,12 @@ p {
     margin-left: 10px;
   }
 }
+@media screen and (max-width: 425px) {
+  .projects__filter {
+    max-width: 300px;
+    gap: 5px;
+  }
+}
 .projects__filter-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1174,6 +1240,12 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 476px;
+}
+@media screen and (max-width: 425px) {
+  .projects__filter-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 .projects__filter-content-item {
   font-family: Inter;
