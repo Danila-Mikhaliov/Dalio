@@ -543,7 +543,7 @@ p {
   position: relative;
 }
 .wraper__background {
-  background-image: url("/src/assets/image/backgrounds/Background-wraper.svg");
+  background-image: url("../src/assets/image/backgrounds/Background-wraper.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
   background-position-x: center;
