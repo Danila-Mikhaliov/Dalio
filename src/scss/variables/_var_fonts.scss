@@ -3,100 +3,67 @@
 $ff: Inter;
 
 h1 {
-font-family: $ff;
-font-size: 150px;
-font-weight: 700;
-line-height: 85px;
-letter-spacing: 0em;
-text-align: center;
-color: #fff;
-@media screen and (max-width: 1057px) {
-    font-size: 120px;
-}
-@media screen and (max-width: 980px) {
-    font-size: 100px;
-}
-@media screen and (max-width: 830px) {
-    font-size: 70px; 
-}
+  @include font (150px, 700, 85px, center);
+  font-family: $ff;
+  color: #fff;
+  @media screen and (max-width: 1024px) {
+    font-size: 110px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 70px;
+  }
 }
 h2 {
-color: #fff;
-font-family: $ff;
-font-size: 48px;
-font-weight: 700;
-line-height: 58px;
-letter-spacing: 0em;
-text-align: left;
-@media screen and (max-width: 1057px) {
-    font-size: 40px;
-}
-@media screen and (max-width: 980px) {
-    font-size: 32px;
-}
-@media screen and (max-width: 830px) {
-    font-size: 24px; 
-}
-
+  @include font (48px, 700, 58px, left);
+  color: #fff;
+  font-family: $ff;
+  @media screen and (max-width: 1024px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 24px;
+  }
 }
 h3 {
-font-family: $ff;
-font-size: 30px;
-font-weight: 600;
-line-height: 36px;
-text-align: left;
-@media screen and (max-width: 1057px) {
-    font-size: 27px;
-}
-@media screen and (max-width: 980px) {
-    font-size: 24px;
-}
-@media screen and (max-width: 830px) {
-    font-size: 20px; 
-}
+  @include font (30px, 600, 36px, left);
+  font-family: $ff;
+  @media screen and (max-width: 1024px) {
+    font-size: 25px;
+  }
+  @media screen and (max-width: 830px) {
+    font-size: 20px;
+  }
 }
 h4 {
-font-family: $ff;
-font-size: 24px;
-font-weight: 700;
-line-height: 29px;
-text-align: left;
-color:#fff;
-@media screen and (max-width: 1057px) {
+  @include font (24px, 700, 29px, left);
+  font-family: $ff;
+  color: #fff;
+  @media screen and (max-width: 1024px) {
     font-size: 20px;
-}
-@media screen and (max-width: 980px) {
+  }
+  @media screen and (max-width: 600px) {
     font-size: 18px;
+  }
 }
-}
-h5{
-font-family: $ff;
-font-size: 24px;
-font-weight: 400;
-line-height: 40px;
-text-align: left;
-@media screen and (max-width: 1057px) {
+h5 {
+  @include font (24px, 400, 40px, left);
+  font-family: $ff;
+  @media screen and (max-width: 1024px) {
     font-size: 20px;
-}
-@media screen and (max-width: 980px) {
+  }
+  @media screen and (max-width: 600px) {
     font-size: 18px;
+  }
 }
-}
-h6{
-font-family: $ff;
-font-size: 20px;
-font-weight: 400;
-text-align: left;
-@media screen and (max-width: 980px) {
+h6 {
+  @include font (20px, 400, 30px, left);
+  font-family: $ff;
+  @media screen and (max-width: 1024px) {
     font-size: 18px;
+  }
 }
-}
-p{
-font-family: $ff;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-color:rgba(224, 229, 243, 1);
+p {
+  @include font (18px, 400, 30px, left);
+  font-family: $ff;
+  color: rgba(224, 229, 243, 1);
 }

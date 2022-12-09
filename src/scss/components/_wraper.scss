@@ -1,14 +1,16 @@
+html{
+  scroll-behavior: smooth;
+}
 .wraper {
-background-color: rgb(10,20,47);
-position: relative;
-    // .wraper__background
+  background-color: rgb(10, 20, 47);
+  position: relative;
+  // .wraper__background
 
-    &__background {
-        background-image: url('/src/assets/image/backgrounds/Background-wraper.svg');
-        background-size: 100vw;
-        background-repeat: no-repeat;
-        background-position-x:center ;
-        background-position-y:top ;
-        
-    }
+  &__background {
+    background-image: url("../../assets/image/backgrounds/Background-wraper.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+  }
 }

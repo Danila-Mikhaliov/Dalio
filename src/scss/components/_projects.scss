@@ -1,5 +1,5 @@
 .projects {
-  // .projects__title
+  padding-bottom: 120px;
 
   &__title {
     text-align: center;
@@ -9,60 +9,51 @@
   // .projects__filter
 
   &__filter {
+    display: flex;
+    justify-content: center;
     margin-bottom: 48px;
-    margin-left: 29.1%;
-    @media screen and (max-width: 768px){
-      margin-left: 18%;
-    }
-    @media screen and (max-width: 425px){
-      margin-left: 10px;
-    }
-    @media screen and (max-width: 425px){
-      max-width: 300px;
-      gap: 5px;
-    }
   }
-  // .projects__filter-content
-
   &__filter-content {
     display: flex;
     justify-content: space-between;
-    max-width: 476px;
-    @media screen and (max-width: 425px){
+    width: 40%;
+    
+    @media screen and (max-width: 425px) {
       flex-wrap: wrap;
     }
   }
-
-  // .projects__filter-content-item
-
   &__filter-content-item {
-    &:hover {
-      color: $yellow;
-      cursor: pointer;
-    }
+    transition: 0.3s;
+    text-transform: lowercase;
+		font-weight: 800;
+		margin-left: 5%;
+		color: #fff;
     font-family: $ff;
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-
-    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+    &:hover {
+      color: $yellow;
+      
+    }
   }
 
   &__content {
     display: flex;
     gap: 30px;
     margin-bottom: 32px;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       flex-wrap: wrap;
     }
   }
-   &__content-column-image {
-    max-width: 100%;
-    max-height: 500px;
+  &__content-column-image {
     margin-bottom: 32px;
-    
+    min-height: 500px;
   }
   &__content-column-title {
     margin-bottom: 32px;

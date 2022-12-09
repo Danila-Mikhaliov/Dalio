@@ -1,6 +1,7 @@
 .main-footer {
   background-color: rgba(59, 67, 90, 1);
   margin-top: 40px;
+  padding-bottom: 52px;
 
   &__container {
     max-width: 1300px;
@@ -9,33 +10,36 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       flex-direction: column;
       align-items: center;
     }
   }
   &__contact-form {
+    position: relative;
+    padding: 80px 48px;
     margin-top: 48px;
     background-color: $yellow;
     width: 43.3%;
     display: flex;
-    min-height: 210px;
     flex-direction: column;
     align-items: center;
     border-radius: 30px;
-    padding: 80px, 70px, 80px, 48px;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       width: 90%;
       margin-bottom: 40px;
-    }
+    }   
+  }
+  &__contact-form-image{
+    position: absolute;
+    left: -30px;
+    top: -30px
+
   }
   &__contact-form-title {
+    @include font (20px, 600, 30px, left);
     font-family: $ff;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: 0px;
-    text-align: left;
+    margin-bottom: 20px;
     @media screen and (max-width: 425px){
       width: 70%;
       text-align: center;
@@ -43,7 +47,8 @@
   }
   &__contact-form-email {
     outline: none;
-    width: 84.6%;
+    width: 100%;
+    padding: 0 5px ;
     border: none;
     background-color: transparent;
     padding-bottom: 13px;
@@ -56,43 +61,56 @@
     text-align: left;
     @media screen and (max-width: 425px){
       text-align: center;
-     margin-bottom: 30px;
+      margin-bottom: 30px;
     }
   }
   &__contact-column {
     width: 22.54%;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       width: 60%;
       margin-bottom: 30px;
     }
   }
   &__contact-column-title {
     color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 18px;
-    letter-spacing: 0px;
-    text-align: left;
+    @include font(18px, 600, 18px, left);
     margin-bottom: 16px;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       text-align: center;
     }
   }
   &__contact-column-discription {
     text-align: left;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
       font-size: 16px;
     }
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       text-align: center;
     }
+  }
+  &__contact-column-discription-tel{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    &:hover{
+      color: $yellow;
+    }
+  }
+  &__contact-column-discription-email{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    &:hover{
+      color: $yellow;
+    }
+
   }
   &__production {
     margin-top: 52px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       flex-direction: column-reverse;
     }
   }
@@ -100,11 +118,9 @@
     display: flex;
     flex-basis: 15%;
     justify-content: space-around;
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 425px) {
       width: 80%;
       margin-bottom: 30px;
-      
     }
   }
 }
-

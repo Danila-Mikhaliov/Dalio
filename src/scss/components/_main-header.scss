@@ -1,5 +1,4 @@
 .main-header {
-
   &__content {
     display: flex;
     flex-direction: row;
@@ -12,7 +11,6 @@
     justify-content: space-between;
     @media screen and (max-width: 802px) {
       display: none;
-      
     }
   }
   &__content-nav-list--item {
@@ -20,13 +18,10 @@
   }
   &__content-nav--link {
     font-family: $ff;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
+    @include font(18px, 500, 22px, left);
     color: #fff;
     text-decoration: none;
+    transition: 0.3s;
     &:hover {
       color: $yellow;
     }

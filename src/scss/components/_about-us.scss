@@ -1,6 +1,5 @@
 .about-us {
-  padding-top: 386px;
-  @media screen and (max-width: 425px){
+  @media screen and (max-width: 426px){
     padding: 5px;
     padding-bottom: 300px;
   }
@@ -13,35 +12,24 @@
     flex-direction: row;
   }
   &__content-text--title{
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 426px){
       width: 70%;
-
     }
-
   }
   &__content-text {
     max-width: 539px;
-    padding-right: 45px ;
-    @media screen and (max-width: 425px){
+    padding-right: 40px ;
+    @media screen and (max-width: 426px){
       width: 100%;
       padding: 0px;
     }
   }
-
-  &__content-text--discription {
-    text-align: left;
-    margin-top: 40px;
-    margin-bottom: 48px;
-  }
-  &__content-button {
-    align-self: flex-start;
-    
-  }
   &__content-imagegroup{
+    min-height: 100%;
     @media screen and (max-width: 768px){
       left: 100px;
     }
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 426px){
        position: absolute;
        left: 20px;
        top: 2310px;
@@ -51,8 +39,13 @@
       top: 2390px;
     }
     @media screen and (max-width: 333px){
-      top: 2500px;
+      top: 2420px;
     }
+  }
+  &__content-text--discription {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 48px;
   }
 }
 
