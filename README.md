@@ -1,3 +1,3 @@
-# Digital_agency
+# Dalio
 
-https://danila-mikhaliov.github.io/Digital_agency/public/index.html
+https://danila-mikhaliov.github.io/Dalio/public/index.html
