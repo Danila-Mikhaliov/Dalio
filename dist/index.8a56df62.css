@@ -359,7 +359,7 @@ html {
   background-image: url("Background-wraper.53b1b258.svg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .main-header__content {
