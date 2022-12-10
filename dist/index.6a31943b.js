@@ -8,7 +8,7 @@ new Swiper(".swiper", {
         prevEl: ".swiper-button-prev"
     },
     spaceBetween: 30,
-    slidesPerView: 1.5
+    slidesPerView: 1
 });
 
 //# sourceMappingURL=index.6a31943b.js.map

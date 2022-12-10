@@ -8,6 +8,10 @@
     display: flex;
     justify-content: center;
     gap: 32px;
+    @media screen and (max-width: 660px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   &__content-column {

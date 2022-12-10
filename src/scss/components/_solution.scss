@@ -18,6 +18,12 @@
     top: 100px;
     right: -120px;
     z-index: 2;
+    @media screen and (max-width:1256px){
+      width: 98%;
+    }
+    @media screen and (max-width: 809px){
+      right: -50px;
+    }
     @media screen and (max-width: 768px) {
       width: 70%;
       right: 70px;
@@ -43,6 +49,12 @@
     padding-right: 110px;
     background: rgba(53, 63, 91, 1);
     width: 60%;
+    @media screen and (max-width:1256px){
+      padding: 20px 10px 10px 150px;
+    }
+    @media screen and (max-width: 809px){
+      padding: 20px 20px 20px 50px;
+    }
     @media screen and (max-width: 768px) {
       padding: 10px;
     }

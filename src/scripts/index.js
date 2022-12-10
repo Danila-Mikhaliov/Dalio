@@ -8,5 +8,5 @@ new Swiper(".swiper", {
       prevEl: '.swiper-button-prev',
     },
     spaceBetween: 30,
-    slidesPerView: 1.5,
+    slidesPerView: 1,
   });

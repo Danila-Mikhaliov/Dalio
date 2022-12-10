@@ -10,7 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 850px) {
+      gap: 30px;
       flex-direction: column;
       align-items: center;
     }
@@ -54,11 +55,8 @@
     padding-bottom: 13px;
     border-bottom: 1px solid rgba(10, 20, 47, 1);
     font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
+    @include font (16px, 400, 16px, left);
     letter-spacing: -0.2133333384990692px;
-    text-align: left;
     @media screen and (max-width: 425px){
       text-align: center;
       margin-bottom: 30px;
