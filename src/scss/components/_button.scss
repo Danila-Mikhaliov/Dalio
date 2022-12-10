@@ -1,47 +1,45 @@
 .button-yellow {
-    background-color: $yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    padding: 19px 32px;
-    @include font(16px, 500, 22px, center);
-    font-family: $ff;
-    text-align: center;
-    border: none;
-    cursor: pointer; 
-    transition: 0.3s ease;
-    &__vector {
-        margin-left: 20px;
-    }
-    &:hover{
-        padding-left: 60px;
-        color: #fff;
-        background-color: transparent;
-        border: 3px solid $yellow;
-    }
-
-}
-.button-transparent{
-    background-color: transparent;
-    display: flex;
-    border: 1px solid white;
-    align-items: center;
-    border-radius: 30px;
+  background-color: $yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 19px 32px;
+  @include font(16px, 500, 22px, center);
+  font-family: $ff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  &__vector {
+    margin-left: 20px;
+  }
+  &:hover {
+    padding-left: 60px;
     color: #fff;
-    padding: 16px 24px;
-    @include font(16px, 500, 22px, center);
-    font-family: $ff;
-    cursor: pointer;
-    transition: 0.4s ease;
-
-    &__vector {
-        margin-left: 10px;
-    }
-    &:hover{
-        scale: 1.1;
-        transition:0.3s ease;
-        background-color: $yellow;
-        border: 1px solid $yellow;
-    }
+    background-color: transparent;
+    border: 3px solid $yellow;
+  }
+}
+.button-transparent {
+  background-color: transparent;
+  display: flex;
+  border: 1px solid white;
+  align-items: center;
+  border-radius: 30px;
+  color: #fff;
+  padding: 16px 24px;
+  @include font(16px, 500, 22px, center);
+  font-family: $ff;
+  cursor: pointer;
+  transition: 0.4s ease;
+  &__vector {
+    margin-left: 10px;
+  }
+  &:hover {
+    scale: 1.1;
+    transition: 0.3s ease;
+    background-color: $yellow;
+    border: 1px solid $yellow;
+  }
 }

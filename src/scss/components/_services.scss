@@ -33,8 +33,6 @@
     }
   }
 
-  // .services__content-cards-column
-
   &__content-cards-column {
     margin-right: 30px;
     @media screen and (max-width: 660px) {
@@ -47,31 +45,19 @@
       margin-top: 10px;
     }
   }
-
-  // .services__content-cars-column-element
-
   &__content-cards-column-element {
     background-color: rgba(53, 63, 91, 1);
     margin-bottom: 30px;
     padding: 95px 41px 70px 34px;
   }
-
-  // .services__content-cars-column-element-icon
-
   &__content-cards-column-element-icon {
     margin-bottom: 30px;
   }
-
-  // .services__content-cars-column-element-title
-
   &__content-cards-column-element-title {
     @include font(30px, 600, 36px, left );
     color: #fff;
     margin-bottom: 24px;
   }
-
-  // .services__content-cars-column-element-discription
-
   &__content-cards-column-element-discription {
     margin-bottom: 50px;
     @include font(16px, 400, 30px, left);

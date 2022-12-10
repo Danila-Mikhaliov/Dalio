@@ -1,7 +1,5 @@
 .facts {
   padding-bottom: 120px;
-  // .facts__content
-
   &__content {
     margin-top: 141px;
     display: flex;
@@ -11,9 +9,6 @@
       flex-direction: column;
     }
   }
-
-  // .facts__column
-
   &__column {
     display: flex;
     flex-direction: column;
@@ -22,17 +17,11 @@
       margin-bottom: 20px;
     }
   }
-
-  // .facts__column--amount
-
   &__column--amount {
     @media screen and (max-width: 425px) {
       font-size: 48px;
     }
   }
-
-  // .facts__column--type
-
   &__column--type {
     color: rgba(224, 229, 243, 1);
     margin-top: 8px;
@@ -41,5 +30,4 @@
     }
   }
 }
-.container {
-}
+

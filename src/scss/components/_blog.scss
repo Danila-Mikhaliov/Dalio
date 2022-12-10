@@ -1,6 +1,6 @@
 .blog {
   padding-bottom: 120px;
-  
+
   &__title {
     margin-bottom: 40px;
   }
@@ -13,7 +13,6 @@
       justify-content: center;
     }
   }
-
   &__content-column {
     width: 47.35%;
   }
@@ -26,12 +25,12 @@
     padding: 5px 15px;
     color: rgba(11, 20, 48, 1);
     background-color: #fff;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 18px;
-        letter-spacing: 0em;
-        text-align: center;
-        border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
   }
   &__content-column-publication {
     margin-bottom: 18px;
