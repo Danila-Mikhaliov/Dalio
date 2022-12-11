@@ -1400,6 +1400,9 @@ html {
     margin-bottom: 26px;
   }
 }
+.solution__background-grey-container-title {
+  margin-bottom: 50px;
+}
 @media screen and (max-width: 660px) {
   .solution__background-grey-container-title {
     margin-bottom: 20px;
