@@ -552,9 +552,36 @@ html {
 @media screen and (max-width: 1024px) {
   .digital-agency__content-world {
     width: 25%;
-    width: 25%;
     top: -20px;
-    left: 40px;
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .digital-agency__content-world {
+    top: 20px;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .digital-agency__content-world {
+    top: 20px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 536px) {
+  .digital-agency__content-world {
+    top: 20px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .digital-agency__content-world {
+    top: 50px;
+    left: 0;
   }
 }
 
