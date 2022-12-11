@@ -1,5 +1,8 @@
 .facts {
   padding-bottom: 120px;
+  @media screen and (max-width: 660px) {
+    padding-bottom: 40px;;
+  }
   &__content {
     margin-top: 141px;
     display: flex;

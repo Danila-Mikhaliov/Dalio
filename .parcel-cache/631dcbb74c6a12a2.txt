@@ -22,7 +22,7 @@
 97C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\caniuse-lite\data\regions\BE.js133137874122620415 0
 104C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\htmlnano\lib\modules\removeComments.js133137874120420417 0
 83C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\readdirp\index.js133137886128153835 0
-57C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist133152254448157458 1
+57C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist133152265986639489 1
 97C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\swiper\core\loop\loopDestroy.js133143716722622879 0
 76C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\nullthrows133137874118060424 1
 85C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\mixins\_font-mixin.scss133150068017734644 0
@@ -100,12 +100,12 @@
 103C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\caniuse-lite\data\features\svg-css.js133137874129381778 0
 98C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\term-size\vendor\macos\term-size133137874117780417 0
 123C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest6.c133137874123860429 0
-76C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\styles\css\main.css133152242074737560 0
+76C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\styles\css\main.css133152265985477379 0
 95C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\sass\types\value\boolean.d.ts133137886130593855 0
 79C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\lmdb\write.js133137874125300422 0
 87C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_about-us.scss133151776261395118 0
 81C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\tslib\README.md133137874118660435 0
-80C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\styles\css\main.min.css133152242074737560 0
+80C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\styles\css\main.min.css133152265985477379 0
 86C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\node-addon-api\tools133137874120300427 1
 92C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@parcel\runtime-js\LICENSE133137874117020432 0
 72C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components133146137759748188 1
@@ -152,7 +152,7 @@
 111C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\caniuse-lite\data\features\resource-timing.js133137874129060412 0
 75C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\json5\lib133137874120260426 1
 85C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\yaml\browser\map.js133137874119340428 0
-84C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_facts.scss133151777264671669 0
+84C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_facts.scss133152265982471675 0
 87C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\variables\_var_fonts.scss133150095391289801 0
 99C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\postcss-value-parser\lib\parse.js133137874117180420 0
 78C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\chalk\source133137874117500421 1
@@ -167,7 +167,7 @@
 85C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\swiper\package.json133143716724892014 0
 87C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\sass\types\index.d.ts133137886130713821 0
 80C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\config\_reset.scss133138814775806469 0
-83C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_blog.scss133151776412355445 0
+83C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_blog.scss133152259730695358 0
 78C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\css-tree\lib133137874122860540 1
 115C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@babel\highlight\node_modules\ansi-styles\license133137874117140421 0
 103C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@parcel\package-manager\test\fixtures133137874121500444 1
@@ -206,7 +206,7 @@
 114C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@swc\helpers\lib\_check_private_redeclaration.js133137874119300431 0
 98C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\svgo\plugins\convertTransform.js133137874120420417 0
 85C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\css-tree\lib\walker133137874123220417 1
-87C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_services.scss133151777817734844 0
+87C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_services.scss133152258796643841 0
 95C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@babel\highlight\package.json133137874117500421 0
 85C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\css-tree\lib\syntax133137874123820424 1
 92C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\.bin\browserslist-lint.ps1133137874130141762 0
@@ -215,7 +215,7 @@
 111C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@parcel\optimizer-image\lib\ImageOptimizer.js133137874116900428 0
 132C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts.map133137874119180420 0
 93C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\svgo\plugins\_transforms.js133137874118500420 0
-87C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_solution.scss133151778003994267 0
+87C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\src\scss\components\_solution.scss133152265550234115 0
 124C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@parcel\core\test\fixtures\library-scopehoist\package.json133137874126060422 0
 89C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\escalade\sync\index.mjs133137874118380414 0
 107C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\swiper\modules\navigation\navigation.scss133143716729876515 0
@@ -2789,7 +2789,7 @@
 105C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@parcel\utils\test\input\config\.testrc133137874116580426 0
 108C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\entities\lib\generated\decode-data-html.js133137874117860425 0
 121C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\020-usage.md133137874122540453 0
-76C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.8a56df62.css133152254447837448 0
+76C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.8a56df62.css133152265986639489 0
 109C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\@parcel\node-resolver-core\test\resolver.js133137874123260420 0
 122C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\030-config.md133137874122660422 0
 107C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\node_modules\caniuse-lite\data\features\blobbuilder.js133137874123020442 0
@@ -4825,7 +4825,7 @@
 76C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.2103b895.css133137886139473828 0
 80C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.2103b895.css.map133137886139473828 0
 79C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.6a31943b.js.map133152254448077448 0
-80C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.8a56df62.css.map133152254448077448 0
+80C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.8a56df62.css.map133152265986639489 0
 76C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.b10d73a7.css133139755210197423 0
 80C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.b10d73a7.css.map133139755210257078 0
 68C:\Users\Admin\Desktop\Lessons\lesson\digital_agency\dist\index.html133152254446397454 0

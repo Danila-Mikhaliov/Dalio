@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 100px;
+    @media screen and (max-width: 1024px) {
+     margin-bottom: 40px;
+    }
   }
   &__header-title { 
     width: 33.5%;
@@ -49,6 +52,9 @@
     background-color: rgba(53, 63, 91, 1);
     margin-bottom: 30px;
     padding: 95px 41px 70px 34px;
+    @media screen and (max-width: 1024px) {
+     padding: 40px 30px;
+    }
   }
   &__content-cards-column-element-icon {
     margin-bottom: 30px;

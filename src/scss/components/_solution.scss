@@ -1,14 +1,14 @@
 .solution {
   display: flex;
 
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 660px) {
     flex-direction: column-reverse;
   }
   &__background-yellow {
     background-color: $yellow;
     width: 40%;
     position: relative;
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 660px) {
       width: 100%;
       min-height: 386px;
     }
@@ -28,7 +28,7 @@
       width: 70%;
       right: 70px;
     }
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 660px) {
       top: -50px;
       left: 40px;
       width: 80%;
@@ -38,7 +38,7 @@
     position: absolute;
     top: 50px;
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 665px) {
       display: none;
     }
   }
@@ -58,42 +58,51 @@
     @media screen and (max-width: 768px) {
       padding: 10px;
     }
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 660px) {
       background-color: transparent;
       width: 100%;
       padding: 15px;
     }
+  } 
+    &__background-grey-container {
+      color: #fff;
+      margin-bottom: 50px;
+      @media screen and (max-width: 660px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        margin-bottom: 26px;
+      }
   }
-  &__background-grey-container-title {
-    color: #fff;
-    margin-bottom: 50px;
-    @media screen and (max-width: 430px) {
-      display: flex;
-      align-items: center;
-      max-width: 100%;
-      margin-bottom: 26px;
+  &__background-grey-container-title{
+    @media screen and (max-width: 660px) {
+      margin-bottom: 20px;
     }
   }
   &__background-grey-container-text{
     max-width: 494px;
+    @media screen and (max-width: 660px) {
+      width: 80%;
+    }
   }
   &__background-grey-container-text-item {
     background-image: url("../../assets/icons/solution-icon.svg");
     background-repeat: no-repeat;
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 660px) {
       background-image: url("../../assets/icons/solution-icon-yellow.svg");
     }
   }
   &__background-grey-container-text-item-title {
     margin-bottom: 18px;
     margin-left: 50px;
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 660px) {
     }
   }
   &__background-grey-container-text-item-discription {
     margin-bottom: 42px;
     margin-left: 50px;
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 660px) {
       max-width: 262px;
     }
   }

@@ -15,6 +15,9 @@
   }
   &__content-column {
     width: 47.35%;
+    @media screen and (max-width: 660px) {
+      width: 80%
+    }
   }
   &__content-column-image {
     margin-bottom: 24px;
