@@ -33,7 +33,10 @@
         @media screen and (max-width: 800px) {
             margin: 0 auto; 
             padding-bottom: 10px;
-          }
+        }
+        @media screen and (max-width: 660px) {
+            width: 10%;
+        }
     }
     &__text {
         @include font(16px, 400, 30px, left);
@@ -86,4 +89,6 @@
     @media screen and (max-width: 800px) {
         display: none;
       }
+}
+.swiper-pagination{
 }

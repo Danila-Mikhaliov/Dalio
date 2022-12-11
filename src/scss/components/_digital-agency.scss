@@ -11,10 +11,19 @@
   }
   &__content-title {
     text-align: center;
+    @media screen and (max-width: 500px) {
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+
   }
   &__content-title--bottom {
     text-align: center;
     padding-right: 150px;
+    @media screen and (max-width: 500px) {
+      margin-top: 10px;
+      margin-bottom: 10px;
+     }
   }
   &__content-discription {
     color: rgba(224, 229, 243, 1);
